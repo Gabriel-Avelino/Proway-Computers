@@ -64,6 +64,7 @@ input:focus, textarea:focus, select:focus {
 	outline: none;
 }
 
+
 textarea {
 	resize: none;
 }
@@ -73,6 +74,10 @@ textarea {
 }
 
 .valid {
+    border: 1px solid var(--green);
+}
+
+.valid:focus {
     border: 1px solid var(--green);
 }
 
