@@ -30,6 +30,8 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/proway-computers/",
+              "deployUrl": "/proway-computers/",
               "budgets": [
                 {
                   "type": "initial",
