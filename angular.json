@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "proway-computer": {
+    "proway-computers": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "proway-computer:build:production"
+              "browserTarget": "proway-computers:build:production"
             },
             "development": {
-              "browserTarget": "proway-computer:build:development"
+              "browserTarget": "proway-computers:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "proway-computer:build"
+            "browserTarget": "proway-computers:build"
           }
         },
         "test": {
